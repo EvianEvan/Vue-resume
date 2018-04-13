@@ -4,7 +4,7 @@
         <div class="avatar">
           <img src="../assets/logo.png">
         </div>
-        <div class="name">伍 伟</div>
+        <div class="name">辉 耀</div>
         <div class="career">前端工程师</div>
         <div class="location">
           <img src="../assets/location.png">
