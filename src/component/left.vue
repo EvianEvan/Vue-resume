@@ -41,6 +41,18 @@
           <img src="../assets/wx.png" class="pic">
           <span>Nirvana_cn</span>
         </div>
+        <div class="contact">
+          <img src="../assets/social.png" class="pic">
+          <span>社交信息</span>
+        </div>
+        <div class="github contain">
+          <img src="../assets/GitHub.png" class="pic">
+          <span>github.com/Nirvana-cn</span>
+        </div>
+        <div class="blog contain">
+          <img src="../assets/blog.png" class="pic">
+          <span>iceiceice.top</span>
+        </div>
       </div>
     </div>
 </template>
@@ -52,9 +64,11 @@
 <style scoped lang="stylus" rel="stylesheet/stylus">
   .left
     width:300px
+    height:100%
     display:flex
     flex-direction:column
     align-items:center
+    border:1px solid #ccc
     .top
       width:100%
       display:flex
@@ -122,11 +136,11 @@
         font-size:14px
     .bottom
       width:100%
-      height:200px
+      /*height:400px*/
       display:flex
       flex-direction:column
-      justify-content:space-between
-      text-align:center
+      /*justify-content:space-between*/
+      /*align-items: flex-start*/
       .contain
         display:flex
         flex-direction:row
@@ -134,6 +148,7 @@
         align-items: center
         height:50px
         padding-left:60px
+        /*padding-left改为10px打印好看*/
         border-bottom: 1px solid #E9E9E8
       .pic
         width: 20px
@@ -152,6 +167,8 @@
           width: 35px
           height: 35px
           margin-right:24px
+      .blog
+        border-bottom:none
 
 
 </style>

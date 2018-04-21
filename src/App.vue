@@ -19,7 +19,7 @@
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
   #app
-    width:66%
+    height:98vh
     margin:0 auto
     display: flex
     flex-direction: row

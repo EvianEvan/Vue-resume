@@ -1,5 +1,12 @@
 ## Vue + Webpack 设计个人简历
 
+参考 https://segmentfault.com/a/1190000010668125
+
+```bash
+npm install
+npm start
+```
+
 #### Webpack 4 的一些注意点
 1. webpack4抽离出了webpack-cli，所以我们需要下载2个依赖
 

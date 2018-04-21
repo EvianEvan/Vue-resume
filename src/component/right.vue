@@ -6,9 +6,9 @@
       <p>2.有一定的技术视野。并不把自己局限在某个细小的领域，了解后端业务，了解基本的Linux命令以及运维技巧</p>
       <p>3.有很强的业务逻辑抽象能力。在项目中追求系统化、模块化、工程化。善于发现系统的弱点，并有能动性去改变缺陷。以追求系统的健壮性为终极目标</p>
       <p>4.在开发中一贯遵从代码格式规范，能够通过Git进行版本控制</p>
-      <p>个人博客 - http://iceiceice.top</p>
-      <p>Github - https://github.com/Nirvana-cn</p>
-      <p>在线简历 - https://resume.orangecat.top</p>
+      <!--<p>个人博客 - http://iceiceice.top</p>-->
+      <!--<p>Github - https://github.com/Nirvana-cn</p>-->
+      <!--<p>在线简历 - https://resume.orangecat.top</p>-->
     </div>
     <div class="education">
       <p class="title">教育经历</p>
@@ -60,7 +60,11 @@
 <style scoped lang="stylus" rel="stylesheet/stylus">
 .right
   width: 600px
-  margin-left:20px
+  height:100%
+  /*margin-left:20px*/
+  padding:0 20px
+  border:1px solid #ccc
+  border-left:none
   .title
     margin: 20px 0
     font-size:18px
