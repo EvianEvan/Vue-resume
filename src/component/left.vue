@@ -47,7 +47,11 @@
         </div>
         <div class="github contain">
           <img src="../assets/GitHub.png" class="pic">
-          <span>github.com/Nirvana-cn</span>
+          <span>Nirvana-cn</span>
+        </div>
+        <div class="juejin contain">
+          <img src="../assets/juejin.png" class="pic">
+          <span>Nirvana-cn</span>
         </div>
         <div class="blog contain">
           <img src="../assets/blog.png" class="pic">
@@ -82,6 +86,7 @@
         margin:40px 0 20px
         width:130px
         height:130px
+        overflow: hidden
         background-color:#fff
         border-radius:50%
         img
